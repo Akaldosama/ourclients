@@ -1,0 +1,149 @@
+@import url(../body/style.css);
+@import url(../footer/style.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #1F2E35;
+}
+
+nav {
+  padding: 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  color: white;
+}
+nav .nav-bar-hidden {
+  display: none;
+}
+nav span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-left: auto;
+  list-style: none;
+}
+nav .signin-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #BCD0E5;
+  color: white;
+  font-size: 16px;
+}
+nav .signup-btn {
+  padding: 10px 20px;
+  background-color: #02897A;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+nav .darklight-btn {
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  display: grid;
+  place-items: center;
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+  nav {
+    padding: 20px 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .nav-bar-hidden {
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .signin-btn {
+    margin-left: auto;
+  }
+}
+@media (min-width: 448px) and (max-width: 768px) {
+  nav {
+    padding: 20px 30px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .nav-bar-hidden {
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .signin-btn {
+    display: none;
+  }
+  nav .signup-btn {
+    display: none;
+  }
+  nav .darklight-btn {
+    padding: 0;
+    background-color: tra;
+  }
+  nav .darklight-btn img {
+    width: 23px;
+  }
+}
+@media (max-width: 447px) {
+  nav {
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav span {
+    font-size: 25px;
+  }
+  nav span img {
+    width: 35px;
+  }
+  nav .nav-bar-hidden {
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .signin-btn {
+    display: none;
+  }
+  nav .signup-btn {
+    display: none;
+  }
+  nav .darklight-btn {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

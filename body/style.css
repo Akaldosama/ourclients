@@ -1,0 +1,410 @@
+#main1 .container {
+  padding: 100px 80px;
+}
+#main1 .container center h1 {
+  color: white;
+  font-size: 40px;
+}
+#main1 .container .parent center {
+  margin: 50px 0px;
+}
+#main1 .container .parent center span {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+#main2 .container {
+  padding: 30px 100px;
+  background-color: #22343D;
+}
+#main2 .container center h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+#main2 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#main2 .container .parent .child {
+  text-align: center;
+  padding: 40px;
+  height: 300px;
+  border: 1px solid #DEDEDE;
+  border-radius: 10px;
+  color: white;
+}
+#main2 .container .parent .child h3 {
+  font-size: 23px;
+  margin: 20px 0px;
+}
+#main2 .container .parent .child p {
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+#main3 .container {
+  padding: 50px 100px;
+}
+#main3 .container center h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+#main3 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#main3 .container .parent .child {
+  width: 50%;
+  color: white;
+  padding: 30px;
+}
+#main3 .container .parent .child img {
+  width: 100%;
+}
+#main3 .container .parent .child h3 {
+  font-weight: 300;
+}
+#main3 .container .parent .child h2 {
+  line-height: 70px;
+  font-weight: 400;
+}
+#main3 .container .parent .child p {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+#main3 .container button {
+  margin: 20px;
+  padding: 12px 20px;
+  background-color: #02897A;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+#main4 .container {
+  padding: 50px 100px;
+  background-color: #22343D;
+}
+#main4 .container center {
+  max-width: 700px;
+  margin: auto;
+}
+#main4 .container center h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+#main4 .container .parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#main4 .container .parent .child {
+  display: grid;
+  place-items: center;
+}
+#main4 .container .parent .child span {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+#main4 .container .parent .child ul {
+  list-style: none;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+}
+#main4 .container .parent .child ul p {
+  margin: 20px;
+  font-size: 20px;
+}
+#main4 .container .parent .child ul li {
+  font-weight: 300;
+}
+#main4 .container .parent .child ul h4 {
+  font-weight: 300;
+}
+
+#main5 .container {
+  padding: 100px;
+}
+#main5 .container .parent {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  border-radius: 30px;
+  background-color: #02897A;
+}
+#main5 .container .parent .child {
+  width: 50%;
+}
+#main5 .container .parent .child h1 {
+  margin: 50px;
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+}
+#main5 .container .parent .child button {
+  padding: 15px 45px;
+  background-color: white;
+  border-radius: 10px;
+  color: #22343D;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+#main5 .container .parent .child img {
+  width: 90%;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  #main2 .container .parent .child {
+    padding: 20px;
+  }
+  #main5 .container {
+    padding: 50px;
+  }
+  #main5 .container .parent .child h1 {
+    margin: 40px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  #main5 .container .parent .child button {
+    padding: 8px 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  #main1 .container {
+    padding: 80px 40px;
+  }
+  #main1 .container .parent center span {
+    display: flex;
+  }
+  #main1 .container .parent center span img {
+    width: 16.6666666667%;
+    height: 100%;
+  }
+  #main2 .container {
+    padding: 30px 50px;
+  }
+  #main2 .container .parent {
+    gap: 20px;
+  }
+  #main2 .container .parent .child {
+    padding: 20px;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 20px;
+  }
+  #main4 .container {
+    padding: 50px;
+  }
+  #main5 .container {
+    padding: 50px;
+  }
+  #main5 .container .parent {
+    padding: 0px 30px;
+  }
+  #main5 .container .parent .child h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  #main5 .container .parent .child button {
+    padding: 8px 25px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 448px) and (max-width: 768px) {
+  #main1 .container {
+    padding: 50px 30px;
+  }
+  #main1 .container center h1 {
+    font-size: 30px;
+  }
+  #main1 .container .parent center span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  #main2 .container {
+    padding: 30px;
+  }
+  #main2 .container center h1 {
+    font-size: 30px;
+  }
+  #main2 .container .parent {
+    display: block;
+  }
+  #main2 .container .parent .child {
+    padding: 50px;
+    margin: 30px;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 20px;
+  }
+  #main3 .container {
+    padding: 50px;
+  }
+  #main3 .container center h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  #main3 .container .parent {
+    display: grid;
+    place-items: center;
+  }
+  #main3 .container .parent .child {
+    width: 100%;
+  }
+  #main3 .container .parent:nth-child(3) .child:nth-child(1) {
+    order: 2;
+  }
+  #main4 .container {
+    padding: 30px;
+  }
+  #main4 .container center {
+    margin: auto;
+  }
+  #main4 .container center h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  #main4 .container .parent .child {
+    margin: 10px;
+  }
+  #main5 .container {
+    padding: 30px;
+  }
+  #main5 .container .parent {
+    display: grid;
+    place-items: center;
+  }
+  #main5 .container .parent .child {
+    width: 100%;
+    text-align: center;
+  }
+  #main5 .container .parent .child h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 30px;
+  }
+  #main5 .container .parent .child h1 .br_hidden {
+    display: none;
+  }
+  #main5 .container .parent .child button {
+    padding: 8px 25px;
+    font-size: 18px;
+    margin: auto;
+  }
+}
+@media (max-width: 447px) {
+  #main1 .container {
+    padding: 50px 20px;
+  }
+  #main1 .container center h1 {
+    font-size: 30px;
+  }
+  #main1 .container .parent center span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  #main1 .container .parent center span img {
+    width: 33.3333333333%;
+    height: 100%;
+  }
+  #main2 .container {
+    padding: 20px;
+  }
+  #main2 .container center h1 {
+    font-size: 30px;
+  }
+  #main2 .container .parent {
+    display: block;
+  }
+  #main2 .container .parent .child {
+    padding: 30px;
+    margin: 30px;
+  }
+  #main2 .container .parent .child h3 {
+    font-size: 20px;
+  }
+  #main3 .container {
+    padding: 20px;
+  }
+  #main3 .container center h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  #main3 .container .parent {
+    display: grid;
+    place-items: center;
+  }
+  #main3 .container .parent .child {
+    width: 100%;
+  }
+  #main3 .container .parent:nth-child(3) .child:nth-child(1) {
+    order: 2;
+  }
+  #main4 .container {
+    padding: 30px;
+  }
+  #main4 .container center {
+    margin: auto;
+  }
+  #main4 .container center h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 500;
+  }
+  #main4 .container .parent {
+    display: grid;
+    place-items: center;
+  }
+  #main4 .container .parent .child {
+    margin: 10px;
+  }
+  #main5 .container {
+    padding: 20px;
+  }
+  #main5 .container .parent {
+    display: grid;
+    place-items: center;
+  }
+  #main5 .container .parent .child {
+    width: 100%;
+    text-align: center;
+  }
+  #main5 .container .parent .child h1 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px;
+  }
+  #main5 .container .parent .child h1 .br_hidden {
+    display: none;
+  }
+  #main5 .container .parent .child button {
+    padding: 8px 25px;
+    font-size: 18px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

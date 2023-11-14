@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #1F2E35;
+}
+
+nav{
+    .nav-bar-hidden{
+        display: none;
+    }
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    color: white;
+    span{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        margin-left: auto;
+        list-style: none;
+    }
+    .signin-btn{
+        padding: 10px 20px;
+        background-color: transparent;
+        border-radius: 8px;
+        border: 1px solid #BCD0E5;
+        color: white;
+        font-size: 16px;
+    }
+    .signup-btn{
+        padding: 10px 20px;
+        background-color: #02897A;
+        border-radius: 8px;
+        color: white;
+        border: none;
+        font-size: 16px;
+    }
+    .darklight-btn{
+        padding: 5px;
+        border-radius: 50%;
+        border: none;
+        display: grid;
+        place-items: center;
+    }
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width:989px){
+    nav {
+        padding: 20px 50px;
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        .nav-bar-hidden{
+            display: block;
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+        ul{
+            display: none;
+        }
+        .signin-btn{
+            margin-left: auto;
+        }
+        
+    }
+}
+
+@media (min-width: 448px) and (max-width: 768px){
+    nav {
+        padding: 20px 30px;
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        .nav-bar-hidden{
+            display: block;
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+        ul{
+            display: none;
+        }
+        .signin-btn{
+            display: none;
+        }
+        .signup-btn{
+            display: none;
+        }
+        .darklight-btn{
+            padding: 0;
+            background-color: tra;
+            img{
+                width: 23px;
+            }
+        }
+
+        
+    }
+}
+
+@media (max-width: 447px){
+    nav {
+        padding: 20px;
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        span{
+            img{
+                width: 35px;
+            }
+            font-size: 25px;
+        }
+        .nav-bar-hidden{
+            display: block;
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+        ul{
+            display: none;
+        }
+        .signin-btn{
+            display: none;
+        }
+        .signup-btn{
+            display: none;
+        }
+        .darklight-btn{
+            display: none;
+        }        
+    }
+}
+
+
